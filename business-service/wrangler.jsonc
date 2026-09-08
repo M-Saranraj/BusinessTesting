@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "business-service",
+  "compatibility_date": "2026-08-20",
+  "observability": {
+    "enabled": true
+  },
+  "main": "./dist/server/server.mjs",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "dist/browser"
+  }
+}
